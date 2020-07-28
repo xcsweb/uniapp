@@ -23,7 +23,6 @@ setTimeout(() => {
 	});
 }, 100)
 // #endif
-
 Vue.prototype.tui = tui
 Vue.prototype.$eventHub = Vue.prototype.$eventHub || new Vue()
 Vue.prototype.$store = store;
